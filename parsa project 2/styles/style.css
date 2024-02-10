@@ -1,0 +1,55 @@
+body{
+    font-size: 16px;
+    text-align: center;
+    user-select: none;
+}
+.container{
+    font-size: 30px;
+    margin: 40px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.container .fa-heart{
+    color: red;
+    position: absolute;
+    right: 200px;
+}
+.container .fa-bars{
+    position: absolute;
+    left: 200px;
+}
+.content{
+    font-family: "poppins";
+}
+.icons{
+    font-size: 30px;
+    color: grey;
+    font-weight: 100;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+.fa-instagram{
+    margin-left: 40px;
+}
+.fa-dribbble{
+    margin-right: 40px;
+}
+h1{
+    font-size: 4rem;
+}
+p{
+    font-weight: 400;
+}
+span{
+    color: red;
+}
+button{
+    margin: 0 auto;
+    padding: 18px 50px;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color:white;
+    font-size: large;
+    font-family: "poppins";
+}
