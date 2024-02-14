@@ -53,40 +53,25 @@ p{
 span{
     color: red;
 }
-.btn::before{
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-}
 .btn{
-    cursor:pointer;
-    position:relative;
-    padding:10px 20px;
-    background:#ffffff;
-    font-size:larger;
-    border-top-right-radius:10px;
-    border-bottom-left-radius:10px;
-    transition:all 1s;
-}     
-.btn:hover{
-    border: 1px solid;
-    text-shadow: 1px 1px 2px #427388; 
-    border-top-right-radius:0px;
-    border-bottom-left-radius:0px;  
-    background:#3498db;
-    color:white;
-    border-bottom:5px solid rgb(0, 0, 0); 
-    border-right:5px solid rgb(0, 0, 0);
-    transition: all 3s linear;
-    transform: rotate(-45deg);
-    transform-origin: left; 
-    text-decoration: underline;
-} 
-.text{
-    text-decoration: none;
-    color: black;
+    appearance: none;
+    border: 1px black solid;
+    outline: none;
+    background: none;
+    cursor: pointer;
     font-size: large;
-    position: absolute;
-    left: 750px;
-    bottom: 50px;
-    z-index: -1;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 18px 40px;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255) 50%,#3f8bfc 50%);
+    background-size: 200% 200%;
+    transition: 0.4s ease-out;
+}
+.btn:hover{
+    background-position: bottom ;
+    color:white;
+    text-decoration: underline;
+    transform: rotate(-3deg);
+
 }
